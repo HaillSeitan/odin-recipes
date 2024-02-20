@@ -1,0 +1,15 @@
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+    color: #3c1b0a;
+    background-color: #edcda4;
+}
+
+.headline {
+    font-size: 24px;
+    text-shadow: 3px 3px 4px #3c1b0a64;
+}
+
+#img img {
+   width: 500px;
+   height: auto;
+}

@@ -1,15 +1,45 @@
-* {
-    font-family: Helvetica, Verdana, sans-serif;
+body {
+    font-family: Helvetica condensed, Helvetica, Verdana, sans-serif;
     color: #3c1b0a;
     background-color: #edcda4;
 }
 
-.headline {
-    font-size: 24px;
-    text-shadow: 3px 3px 4px #3c1b0a64;
+.container {
+    width: 1100px;
+    margin: 0 auto;
 }
 
-#img img {
-   width: 500px;
-   height: auto;
+.links {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 2em;
+    padding: 0.5em;
+}
+
+.headline {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 3px 3px 4px #3c1b0a64;
+    margin-bottom: 20px;
+}
+
+.container01 {
+    overflow: hidden;
+}
+
+.zutaten, .zubereitung {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8e7d0;
+    border: 1px solid #3c1b0a;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.zutaten {
+    
+    margin-right: 10px;
+
 }
